@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=smr8890&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&count_private=true" alt="图片1" width="450">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smr8890" alt="图片2" width="300">
+    <img src="https://github-readme-stats.vercel.app/api?username=smr8890&theme=transparent&show_icons=true&hide_border=true&count_private=true" alt="stats" width="450">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smr8890" alt="langs" width="300">
 </div>
 
