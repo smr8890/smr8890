@@ -12,7 +12,7 @@
             <a href="https://github.com/smr8890"><img src="https://github-readme-stats.vercel.app/api?username=smr8890&theme=default&show_icons=true&hide_border=true&count_private=true" alt="stats"></a>
         </td>
         <td>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smr8890&hide_border=true" alt="langs">
+            <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=smr8890&hide_border=true" alt="langs">
         </td>
     </tr>
 </table>
