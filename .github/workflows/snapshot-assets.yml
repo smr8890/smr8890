@@ -1,0 +1,47 @@
+name: snapshot assets
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/snapshot.mjs"
+      - ".github/workflows/snapshot-assets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot-assets
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Snapshot SVG assets
+        run: node scripts/snapshot.mjs
+
+      - name: Commit updated assets
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "assets are already up to date"
+          else
+            git commit -m "chore: refresh profile images"
+            git pull --rebase --autostash origin main
+            git push
+          fi
