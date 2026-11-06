@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="200" viewBox="0 0 470 200" role="img" aria-label="Most used languages">
+  <title>Most used languages</title>
+  <style>
+    .card  { fill: #0d1117; stroke: #30363d; }
+    .title { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 600; fill: #e6edf3; }
+    .name  { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size: 12px; font-weight: 500; fill: #8b949e; }
+    .pct   { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size: 11px; font-weight: 500; fill: #8b949e; }
+    .track { fill: #21262d; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="469" height="199" rx="10"/>
+  <text class="title" x="24" y="36">Most Used Languages</text>
+  <text class="name" x="24" y="77">Python</text>
+  <rect class="track" x="150" y="68" width="246" height="8" rx="4"/>
+  <rect x="150" y="68" width="109.6" height="8" rx="4" fill="#3572A5"/>
+  <text class="pct" x="446" y="77" text-anchor="end">44.5%</text>
+  <text class="name" x="24" y="104">JavaScript</text>
+  <rect class="track" x="150" y="95" width="246" height="8" rx="4"/>
+  <rect x="150" y="95" width="89.6" height="8" rx="4" fill="#f1e05a"/>
+  <text class="pct" x="446" y="104" text-anchor="end">36.4%</text>
+  <text class="name" x="24" y="131">Go</text>
+  <rect class="track" x="150" y="122" width="246" height="8" rx="4"/>
+  <rect x="150" y="122" width="23.6" height="8" rx="4" fill="#00ADD8"/>
+  <text class="pct" x="446" y="131" text-anchor="end">9.61%</text>
+  <text class="name" x="24" y="158">HTML</text>
+  <rect class="track" x="150" y="149" width="246" height="8" rx="4"/>
+  <rect x="150" y="149" width="18.2" height="8" rx="4" fill="#e34c26"/>
+  <text class="pct" x="446" y="158" text-anchor="end">7.41%</text>
+  <text class="name" x="24" y="185">CSS</text>
+  <rect class="track" x="150" y="176" width="246" height="8" rx="4"/>
+  <rect x="150" y="176" width="4.9" height="8" rx="4" fill="#563d7c"/>
+  <text class="pct" x="446" y="185" text-anchor="end">2.01%</text>
+</svg>
