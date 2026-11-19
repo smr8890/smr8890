@@ -13,7 +13,7 @@
     </style>
         <defs>
               <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#00c6ff"/><stop offset="100%" stop-color="#0072ff"/>
+                <stop offset="0%" stop-color="#EDE574"/><stop offset="100%" stop-color="#E1F5C4"/>
               </linearGradient>
             </defs>
         
@@ -43,7 +43,7 @@
           </animate>
         </path>
       </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="30%" class="text" style="fill:#f7f5f5;" stroke="#none" stroke-width="1" >HI THERE!</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="60%" class="desc" style="fill:#f7f5f5;">I'm smr</text>
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="30%" class="text" style="fill:#282829;" stroke="#none" stroke-width="1" >HI THERE!</text>
+        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="60%" class="desc" style="fill:#282829;">I'm smr</text>
       </svg>
     
